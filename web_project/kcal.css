@@ -1,0 +1,53 @@
+.tall1{
+    padding-left: 7px;
+}
+.heavy1{
+    padding-left: 1.6px;
+}
+.subtim{
+    margin: 25px 10px;
+    outline: none;
+    width: 25%;
+    height: 35px;
+    background: #026;
+    border-radius: 20px;
+}
+input{
+    width: 100%;
+    margin-left: 6px;
+    height: 30px;
+    margin-top: 20px;
+    border-color: #ffd700;
+}
+select {
+    margin-left:6px;
+    width: 100%;
+    height: 30px;
+    border-color: #ffc100;
+    border-width: 2px;
+}
+button{
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #ffc100;
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+}
+button:hover {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background:#ffc100;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    padding: 0px;
+    margin:10px 0px 0px 0px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>احسب السعرات الحرارية</title>
+    <link rel="stylesheet" href="kcal.css">
+</head>
+<body>
+    <a href="index.html" class="home">الرجوع</a>
+    <input type="number" class="heavy" placeholder="الوزن">
+    <br>
+    <input  type="number" class="tall"placeholder="الطول">
+    <br>
+    <input type="number" class="age"placeholder="العمر">    
+    </div>
+        <div>
+            <h4>النوع</h4>
+            <select name="type" class="type" >
+                <option value="none" selected>الرجاء الاختيار</option>
+                <option value="ذكر" onkeyup="result()">ذكر</option>
+                <option value="انثى" onkeyup="result()">انثى</option>
+            </select>
+        </div>
+        <div>
+            <h4>مستوى النشاط</h4>
+            <select name="النشاط" id="مستوى النشاط">
+                <option value="none" selected>الرجاء الاختيار</option>
+                <option value="معدوم الجركة">(قليل او معدوم النشاط) كثير الجلوس</option>
+                <option value="نشاط خفيف">نشاط خفيف (تمارين خفيفة/رياضة1-3 ايام في الاسبوع)</option>
+                <option value="نشاط متوسط">نشاط متوسط (تمارين معندلة/رياضة3-5 ايام في الاسبوع)</option>
+                <option value="نشاط عالي">نشاط عالي(تمارين شاقة/رياضة6-7 ايام في الاسبوع)</option>
+                <option value="نشاط فائق">نشاط فائق(تمارين صعية جدا/وياضة وظيفة جسدية او ندريب مضاعف)</option>
+            </select>
+    <br>
+    <button type="submit" id="submit">احسب</button>
+    <h2></h2>
+</body>
+</html>

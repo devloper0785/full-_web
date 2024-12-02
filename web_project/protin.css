@@ -1,0 +1,47 @@
+.home{
+    width: 30px;
+    height: 30px;
+}
+select{
+    margin: 5px;
+    width: 100%;
+    height: 30px;
+    border-color: #ffc700;
+    border-width: 2px;
+}
+input {
+    width: 100%;
+    margin-left: 6px;
+    height: 30px;
+    margin-top: 20px;
+    border-color: #ffd700;
+}
+input:focus {
+    scale: 1.025;
+    width: 100%;
+    margin-left: 6px;
+    height: 30px;
+    margin-top: 20px;
+    border-color: #ffd700;
+}
+button {
+    width: 100%;
+    height: 35px;
+    margin: 10px 0px 0px 0px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #ffc100;
+    color: rgb(0, 0, 0);
+    transition: all 1s;
+}
+
+button:hover {
+    width: 100%;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    background: #ffc100;
+    color: rgb(0, 0, 0);
+}
